@@ -1,18 +1,44 @@
 //
 //  AJAppDelegate.m
-//  UpdateiOSApp
+//  UpdateApplication
 //
-//  Created by nesjboor on 09/25/2017.
+//  Created by nesjboor on 09/19/2017.
 //  Copyright (c) 2017 nesjboor. All rights reserved.
 //
 
 #import "AJAppDelegate.h"
+#import "AJViewController.h"
+#import 
 
+
+
+//#import "UpdateApplicaton/UpdateApplication.h"
+//UpdateApp *update;
 @implementation AJAppDelegate
+{
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //set Meta Data URL = json url
+//    update = [[UpdateApp alloc] init];
+    //Force
+    [UpdateiOSA setMetaDataURL:@"https://dl.dropbox.com/s/gl3rslnv6jqwb68/ForceUpdate.json"];
+    //    [update setMetaDataURL:@"https://appstore.aljazeera.net/downloads/anonymous/metadata_ios_gatepass.json"];
+    //Normal
+    //    [update setMetaDataURL:@"https://dl.dropbox.com/s/30jrltfrr9awab2/AlertUpdate.json"];
+    [update setInitialViewControl:[[AJViewController alloc] init]];
+    //set storyboard ID
+    [update setInitialStoryBoardId:@"AJViewController"];
+    //set storyboard Name
+    [update setInitialStoryBoardName:@"Main"];
+    //[update checkForUpdates];
+    //call checkForUpdates
+    [update performSelector:@selector(checkForUpdates) withObject:update afterDelay:0.5];
+    
     return YES;
 }
 
@@ -44,3 +70,4 @@
 }
 
 @end
+

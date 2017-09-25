@@ -10,11 +10,19 @@
 		0175A356ABFA18A9DD9BAA85E6205013 /* Pods-UpdateiOSApp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E85DDC216C67325C6033AC38CE482E /* Pods-UpdateiOSApp_Example-dummy.m */; };
 		05ED9B8E343085F90783733D61DF58A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		0E1663DB87B2E0C9B6B9367D7B8DF766 /* Pods-UpdateiOSApp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEC46CB766A2E635C2B9A6E5FBF973 /* Pods-UpdateiOSApp_Tests-dummy.m */; };
+		57B241AE1F78EEC00019E941 /* ForceUpdateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B241AC1F78EEC00019E941 /* ForceUpdateViewController.h */; };
+		57B241AF1F78EEC00019E941 /* ForceUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B241AD1F78EEC00019E941 /* ForceUpdateViewController.m */; };
+		57B241B21F78EEDD0019E941 /* NormalUpdateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B241B01F78EEDD0019E941 /* NormalUpdateViewController.h */; };
+		57B241B31F78EEDD0019E941 /* NormalUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B241B11F78EEDD0019E941 /* NormalUpdateViewController.m */; };
+		57B241B61F78EEF70019E941 /* UpdateApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B241B41F78EEF70019E941 /* UpdateApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B241B71F78EEF70019E941 /* UpdateApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B241B51F78EEF70019E941 /* UpdateApplication.m */; };
+		57B241BF1F78F10E0019E941 /* JSONLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B241BD1F78F10E0019E941 /* JSONLoader.h */; };
+		57B241C01F78F10E0019E941 /* JSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B241BE1F78F10E0019E941 /* JSONLoader.m */; };
+		57B241FA1F790C590019E941 /* Update.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 57B241B81F78F0380019E941 /* Update.storyboard */; };
 		5F31B9A20A46BB3BC12067CF6A2DEED8 /* UpdateiOSApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB7195514D6CAD64534FCC846D712EE /* UpdateiOSApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F4ED90CA6B46414B5B9E26DBEF5572B /* Pods-UpdateiOSApp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A77C5973883B2FC0896574BF055C36A /* Pods-UpdateiOSApp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64488B370D51FF0B2C40F44644DE5F5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		834F43CCCBFF174BBB1BF0E26C1BD658 /* Pods-UpdateiOSApp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE351D74ABF3C9544E2B76BF3990097D /* Pods-UpdateiOSApp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0B797F45A35189ED9AD8A7187B45593 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ADD36FAD900692574DAAD080B917AC /* ReplaceMe.m */; };
 		BC7A6B8BA8B443EB4A03256143725039 /* UpdateiOSApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6767B36BAED4115F7659815EEE944F68 /* UpdateiOSApp-dummy.m */; };
 		FB25151750E04A2556674A3BC5C35AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -31,20 +39,29 @@
 
 /* Begin PBXFileReference section */
 		063F2AAFB8F9974A803290715BA8F7E6 /* Pods-UpdateiOSApp_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UpdateiOSApp_Example-resources.sh"; sourceTree = "<group>"; };
-		08C9F36FD14D6AEB474877FC25D2B603 /* UpdateiOSApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UpdateiOSApp.modulemap; sourceTree = "<group>"; };
+		08C9F36FD14D6AEB474877FC25D2B603 /* UpdateiOSApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UpdateiOSApp.modulemap; sourceTree = "<group>"; };
 		09571292FABFDFBC7CC57A75D2B38F9A /* Pods-UpdateiOSApp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UpdateiOSApp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		09D29A00C42B9608A871FF8ACEDB4A42 /* Pods-UpdateiOSApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UpdateiOSApp_Example.release.xcconfig"; sourceTree = "<group>"; };
-		22ADD36FAD900692574DAAD080B917AC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UpdateiOSApp/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		26EB57E786C752850666F4A439563BE5 /* Pods-UpdateiOSApp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UpdateiOSApp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		28500AFB1F0C9026F9600CD4EDE7CE20 /* Pods_UpdateiOSApp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UpdateiOSApp_Tests.framework; path = "Pods-UpdateiOSApp_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28500AFB1F0C9026F9600CD4EDE7CE20 /* Pods_UpdateiOSApp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpdateiOSApp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1333B72B51226E660D7711042B7E37 /* Pods-UpdateiOSApp_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UpdateiOSApp_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A77C5973883B2FC0896574BF055C36A /* Pods-UpdateiOSApp_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UpdateiOSApp_Example-umbrella.h"; sourceTree = "<group>"; };
 		3B1BACFED3A55BDC86451DAF2D8C3C24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4159D830A6E0EB370264A7A9DD4DBB20 /* UpdateiOSApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UpdateiOSApp.xcconfig; sourceTree = "<group>"; };
 		42BD224DE0638EA178079D4E4E697422 /* Pods-UpdateiOSApp_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UpdateiOSApp_Tests-resources.sh"; sourceTree = "<group>"; };
-		473AC926A5F954F4CB87E70149E94137 /* Pods-UpdateiOSApp_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UpdateiOSApp_Example.modulemap"; sourceTree = "<group>"; };
+		473AC926A5F954F4CB87E70149E94137 /* Pods-UpdateiOSApp_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UpdateiOSApp_Example.modulemap"; sourceTree = "<group>"; };
 		524A4BD5F0A875DB181063DFFF9B7FBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		553CD2ECDE0FC77EAEF231F091584DF5 /* Pods-UpdateiOSApp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UpdateiOSApp_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57B241AC1F78EEC00019E941 /* ForceUpdateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ForceUpdateViewController.h; path = UpdateiOSApp/Classes/ForceUpdateViewController.h; sourceTree = "<group>"; };
+		57B241AD1F78EEC00019E941 /* ForceUpdateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ForceUpdateViewController.m; path = UpdateiOSApp/Classes/ForceUpdateViewController.m; sourceTree = "<group>"; };
+		57B241B01F78EEDD0019E941 /* NormalUpdateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NormalUpdateViewController.h; path = UpdateiOSApp/Classes/NormalUpdateViewController.h; sourceTree = "<group>"; };
+		57B241B11F78EEDD0019E941 /* NormalUpdateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NormalUpdateViewController.m; path = UpdateiOSApp/Classes/NormalUpdateViewController.m; sourceTree = "<group>"; };
+		57B241B41F78EEF70019E941 /* UpdateApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UpdateApplication.h; path = UpdateiOSApp/Classes/UpdateApplication.h; sourceTree = "<group>"; };
+		57B241B51F78EEF70019E941 /* UpdateApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UpdateApplication.m; path = UpdateiOSApp/Classes/UpdateApplication.m; sourceTree = "<group>"; };
+		57B241B81F78F0380019E941 /* Update.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Update.storyboard; path = UpdateiOSApp/Assets/Update.storyboard; sourceTree = "<group>"; };
+		57B241BD1F78F10E0019E941 /* JSONLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONLoader.h; path = UpdateiOSApp/Classes/JSONLoader.h; sourceTree = "<group>"; };
+		57B241BE1F78F10E0019E941 /* JSONLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JSONLoader.m; path = UpdateiOSApp/Classes/JSONLoader.m; sourceTree = "<group>"; };
+		57B241C11F78F1EC0019E941 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = UpdateiOSApp/Assets/Media.xcassets; sourceTree = "<group>"; };
 		5AB7195514D6CAD64534FCC846D712EE /* UpdateiOSApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UpdateiOSApp-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66E85DDC216C67325C6033AC38CE482E /* Pods-UpdateiOSApp_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UpdateiOSApp_Example-dummy.m"; sourceTree = "<group>"; };
@@ -52,16 +69,16 @@
 		7A5D77F4667D1291F3FA5554C4EA6207 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CBEC46CB766A2E635C2B9A6E5FBF973 /* Pods-UpdateiOSApp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UpdateiOSApp_Tests-dummy.m"; sourceTree = "<group>"; };
 		7DAC30C0BF9D9863F2997706B4FCF80D /* Pods-UpdateiOSApp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UpdateiOSApp_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94FAC3324DBE48BE48E4C345163D09F7 /* UpdateiOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UpdateiOSApp.framework; path = UpdateiOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FAC3324DBE48BE48E4C345163D09F7 /* UpdateiOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UpdateiOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3526C0C74255D32AB7A5D23F55D38D5 /* Pods-UpdateiOSApp_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UpdateiOSApp_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AC71C057A7032DB174D49882C572A2C1 /* Pods-UpdateiOSApp_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UpdateiOSApp_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE351D74ABF3C9544E2B76BF3990097D /* Pods-UpdateiOSApp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UpdateiOSApp_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AFDE8833B2C58F51166EB8A2BA0E79AC /* Pods-UpdateiOSApp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UpdateiOSApp_Tests.modulemap"; sourceTree = "<group>"; };
+		AFDE8833B2C58F51166EB8A2BA0E79AC /* Pods-UpdateiOSApp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UpdateiOSApp_Tests.modulemap"; sourceTree = "<group>"; };
 		BCB727778B743601F71BA2451F67DDE1 /* Pods-UpdateiOSApp_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UpdateiOSApp_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DB9153884B76B836E711A9898F548908 /* UpdateiOSApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UpdateiOSApp-prefix.pch"; sourceTree = "<group>"; };
 		DFC3F5E457F7215645CDFD4A85C27582 /* Pods-UpdateiOSApp_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UpdateiOSApp_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FAE1C05C2793C0D4652F03093B1237DE /* Pods_UpdateiOSApp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UpdateiOSApp_Example.framework; path = "Pods-UpdateiOSApp_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE1C05C2793C0D4652F03093B1237DE /* Pods_UpdateiOSApp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpdateiOSApp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +130,17 @@
 		2EC7FD5F4C0D2686E605877C755E74A1 /* UpdateiOSApp */ = {
 			isa = PBXGroup;
 			children = (
-				22ADD36FAD900692574DAAD080B917AC /* ReplaceMe.m */,
+				57B241AC1F78EEC00019E941 /* ForceUpdateViewController.h */,
+				57B241AD1F78EEC00019E941 /* ForceUpdateViewController.m */,
 				8225CA24525A6C1ACF9A1FD999B1EE28 /* Support Files */,
+				57B241B01F78EEDD0019E941 /* NormalUpdateViewController.h */,
+				57B241B11F78EEDD0019E941 /* NormalUpdateViewController.m */,
+				57B241B41F78EEF70019E941 /* UpdateApplication.h */,
+				57B241B51F78EEF70019E941 /* UpdateApplication.m */,
+				57B241B81F78F0380019E941 /* Update.storyboard */,
+				57B241BD1F78F10E0019E941 /* JSONLoader.h */,
+				57B241BE1F78F10E0019E941 /* JSONLoader.m */,
+				57B241C11F78F1EC0019E941 /* Media.xcassets */,
 			);
 			name = UpdateiOSApp;
 			path = ../..;
@@ -221,7 +247,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B241B61F78EEF70019E941 /* UpdateApplication.h in Headers */,
+				57B241AE1F78EEC00019E941 /* ForceUpdateViewController.h in Headers */,
+				57B241B21F78EEDD0019E941 /* NormalUpdateViewController.h in Headers */,
 				5F31B9A20A46BB3BC12067CF6A2DEED8 /* UpdateiOSApp-umbrella.h in Headers */,
+				57B241BF1F78F10E0019E941 /* JSONLoader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +359,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B797F45A35189ED9AD8A7187B45593 /* ReplaceMe.m in Sources */,
+				57B241FA1F790C590019E941 /* Update.storyboard in Sources */,
+				57B241AF1F78EEC00019E941 /* ForceUpdateViewController.m in Sources */,
+				57B241B31F78EEDD0019E941 /* NormalUpdateViewController.m in Sources */,
+				57B241B71F78EEF70019E941 /* UpdateApplication.m in Sources */,
 				BC7A6B8BA8B443EB4A03256143725039 /* UpdateiOSApp-dummy.m in Sources */,
+				57B241C01F78F10E0019E941 /* JSONLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
