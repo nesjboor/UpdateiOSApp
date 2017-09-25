@@ -1,0 +1,22 @@
+{
+  "name": "UpdateiOSApp",
+  "version": "0.1.0",
+  "summary": "A short description of UpdateiOSApp.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nesjboor/UpdateiOSApp",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nesjboor": "nesreenjboor@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nesjboor/UpdateiOSApp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UpdateiOSApp/Classes/**/*"
+}

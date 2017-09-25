@@ -1,0 +1,6 @@
+framework module UpdateiOSApp {
+  umbrella header "UpdateiOSApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
