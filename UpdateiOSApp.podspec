@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'UpdateiOSApp/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'UpdateiOSApp' => ['UpdateiOSApp/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'UpdateiOSApp' => ['UpdateiOSApp/Assets/*.{png,jpeg,jpg,xib,storyboard}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'

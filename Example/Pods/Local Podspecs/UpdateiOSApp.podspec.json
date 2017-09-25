@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "UpdateiOSApp/Classes/**/*"
+  "source_files": "UpdateiOSApp/Classes/**/*",
+  "resource_bundles": {
+    "UpdateiOSApp": [
+      "UpdateiOSApp/Assets/*.{png,jpeg,jpg,xib,storyboard}"
+    ]
+  },
+  "frameworks": "UIKit"
 }

@@ -7,8 +7,7 @@
 //
 
 @import UIKit;
-//@import
-
+//@import UpdateiOSApp/ForceUpdateViewController;
 //extern UpdateApp *update;
 @interface AJAppDelegate : UIResponder <UIApplicationDelegate>
 

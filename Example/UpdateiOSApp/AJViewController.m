@@ -8,9 +8,6 @@
 
 #import "AJViewController.h"
 #import "AJAppDelegate.h"
-#import "UpdateApp.h"
-
-
 @interface AJViewController ()
 
 @end
@@ -27,9 +24,9 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    [[NSNotificationCenter defaultCenter] addObserver:update selector:@selector(showForceUpdateViewController:) name:@"openForceUpdate" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showForceUpdateViewController:) name:@"openForceUpdate" object:nil];
     
-    [[NSNotificationCenter defaultCenter] addObserver:update selector:@selector(showNormalUpdateViewController:) name:@"openNormalUpdate" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showNormalUpdateViewController:) name:@"openNormalUpdate" object:nil];
     
     
     //this nofi will have a NSDirectory obj that has the json file data

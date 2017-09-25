@@ -1,11 +1,12 @@
-use_frameworks!
+
 
 target 'UpdateiOSApp_Example' do
-  pod 'UpdateiOSApp', :path => '../'
-
+  use_frameworks!
+  pod ‘UpdateiOSApp’, :path => ‘~/.cocoapods/repos/UpdateiOSApp/UpdateiOSApp’
   target 'UpdateiOSApp_Tests' do
     inherit! :search_paths
 
     
   end
 end
+

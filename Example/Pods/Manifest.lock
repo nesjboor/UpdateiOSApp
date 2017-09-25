@@ -2,15 +2,15 @@ PODS:
   - UpdateiOSApp (0.1.0)
 
 DEPENDENCIES:
-  - UpdateiOSApp (from `../`)
+  - UpdateiOSApp (from `~/.cocoapods/repos/UpdateiOSApp/UpdateiOSApp`)
 
 EXTERNAL SOURCES:
   UpdateiOSApp:
-    :path: ../
+    :path: ~/.cocoapods/repos/UpdateiOSApp/UpdateiOSApp
 
 SPEC CHECKSUMS:
-  UpdateiOSApp: b8777ef95dfe1e004bd710d997b85a00c62473b0
+  UpdateiOSApp: d70e79a0300d906850d20d827d585e20dd668507
 
-PODFILE CHECKSUM: a37b86d32d9630b9699d24c2d59d0f3802974a20
+PODFILE CHECKSUM: 80d583184d9fa5a24fb79b9e9f6f8bf9e6f86219
 
 COCOAPODS: 1.3.1

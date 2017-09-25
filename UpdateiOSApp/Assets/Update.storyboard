@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -51,7 +51,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="update_emoji" translatesAutoresizingMaskIntoConstraints="NO" id="opq-ge-w3Z">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="update_emoji.png" translatesAutoresizingMaskIntoConstraints="NO" id="opq-ge-w3Z">
                                 <rect key="frame" x="155.5" y="62" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="2xo-4D-Psh"/>
@@ -73,7 +73,6 @@
                             <constraint firstItem="XDI-cs-kCs" firstAttribute="leading" secondItem="IyK-yI-qbq" secondAttribute="leading" constant="20" id="vtf-8T-Ne7"/>
                             <constraint firstItem="k9s-ZC-ete" firstAttribute="leading" secondItem="IyK-yI-qbq" secondAttribute="leading" constant="51" id="wxB-gh-mXR"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="vTS-Hm-8iJ"/>
                     </view>
                     <connections>
                         <outlet property="forceUpdateLabel" destination="XDI-cs-kCs" id="Jha-zz-TSO"/>
@@ -130,7 +129,7 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="update_emoji" translatesAutoresizingMaskIntoConstraints="NO" id="AQ2-PF-vhk">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="update_emoji.png" translatesAutoresizingMaskIntoConstraints="NO" id="AQ2-PF-vhk">
                                         <rect key="frame" x="156" y="62" width="64" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="64" id="EQv-qE-vqU"/>
@@ -179,7 +178,6 @@
                             <constraint firstAttribute="trailing" secondItem="SHA-ZX-lo7" secondAttribute="trailing" id="Wdk-Kg-32O"/>
                             <constraint firstItem="SHA-ZX-lo7" firstAttribute="bottom" secondItem="bi1-Sh-VTm" secondAttribute="top" id="XKn-fE-cDj"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="0ql-ef-I3M"/>
                     </view>
                     <connections>
                         <outlet property="lblString" destination="hw4-gk-3fK" id="T0m-lB-zni"/>
@@ -192,6 +190,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="update_emoji" width="16" height="16"/>
+        <image name="update_emoji.png" width="128" height="128"/>
     </resources>
 </document>
