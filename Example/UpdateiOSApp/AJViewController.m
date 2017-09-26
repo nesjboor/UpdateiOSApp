@@ -8,6 +8,8 @@
 
 #import "AJViewController.h"
 #import "AJAppDelegate.h"
+#import <UpdateiOSApp/NormalUpdateViewController.h>
+#import <UpdateiOSApp/ForceUpdateViewController.h>
 @interface AJViewController ()
 
 @end

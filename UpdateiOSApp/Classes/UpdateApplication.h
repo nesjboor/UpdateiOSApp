@@ -22,6 +22,8 @@
 
 -(void)showForceUpdateViewController:(NSNotification*) data;
 -(void)showNormalUpdateViewController:(NSNotification*) data;
++(void)askUserToUpdateApplication;
++(void)forceUserToUpdateApplication;
 +(void)checkForUpdates;
 +(NSNumber*)getCurrentApplicationVersion;
 +(NSNumber*)getJSONApplicationVersion: (NSString*) versionString;

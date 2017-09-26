@@ -142,7 +142,7 @@ UIViewController *initialVC;
 }
 
 //if the json file has force=true will come here and show the force UI
--(void)forceUserToUpdateApplication
++(void)forceUserToUpdateApplication
 {
     //applicationUpdateData = json file data
     
@@ -174,7 +174,7 @@ UIViewController *initialVC;
 }
 
 //if the json file has force=false will come here to show an alert
--(void)askUserToUpdateApplication
++(void)askUserToUpdateApplication
 {
     [[NSNotificationCenter defaultCenter] postNotificationName:@"openNormalUpdate" object:applicationUpdateData];
     

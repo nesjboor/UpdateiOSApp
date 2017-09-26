@@ -31,10 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'UpdateiOSApp/Classes/**/*'
-  
-   s.resource_bundles = {
-     'UpdateiOSApp' => ['UpdateiOSApp/Assets/*.{png,jpeg,jpg,xib,storyboard}']
-   }
+
+# s.resource_bundles { 'UpdateiOSApp' => ['UpdateiOSApp/Assets/*.{png,jpeg,jpg}']}
+s.resource_bundles { 'UpdateiOSApp' => ['UpdateiOSApp/Assets/*'] }
+s.resource = 'UpdateiOSApp/Assets/*.{storyboard,png}'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
