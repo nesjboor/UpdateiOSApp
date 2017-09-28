@@ -1,10 +1,12 @@
 
 platform :ios, '8.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/nesjboor/UpdateiOSApp.git'
   use_frameworks!
 target 'UpdateiOSApp_Example' do
     # pod 'UpdateiOSApp', :path => '~/.cocoapods/repos/UpdateiOSApp/UpdateiOSApp'
     pod 'UpdateiOSApp', :path => '~/.cocoapods/repos/UpdateiOSApp/UpdateiOSApp'
-    pod 'UpdateiOSApp', :podspec => '~/.cocoapods/repos/UpdateiOSApp/UpdateiOSApp/UpdateiOSApp.podspec'
+    # pod 'UpdateiOSApp', :podspec => '~/.cocoapods/repos/UpdateiOSApp/UpdateiOSApp/UpdateiOSApp.podspec'
   target 'UpdateiOSApp_Tests' do
     inherit! :search_paths
 

@@ -25,5 +25,6 @@
     ]
   },
   "resources": "UpdateiOSApp/Assets/*.{storyboard,png}",
+  "public_header_files": "UpdateiOSApp/Classes/**/*.h",
   "frameworks": "UIKit"
 }
