@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nesjboor' => 'nesreenjboor@gmail.com' }
-  s.source           = { :git => 'https://github.com/nesjboor/UpdateiOSApp.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nesjboor/UpdateiOSApp.git', :tag => "0.1.0" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 s.resource_bundles = { 'UpdateiOSApp' => ['UpdateiOSApp/Assets/*'] }
 s.resource = 'UpdateiOSApp/Assets/*.{storyboard,png}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'UpdateiOSApp/Classes/**/*.h'
     s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
