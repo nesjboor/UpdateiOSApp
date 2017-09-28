@@ -69,11 +69,12 @@ UIViewController *initialVC;
 }
 
 
--(void)showForceUpdateViewController:(NSNotification*) data
++(void)showForceUpdateViewController:(NSNotification*) data
 {
     NSLog(@"This is showForceUpdateVC");
     NSLog(@"the result is %@",[data object]);
-    ForceUpdateViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ForceUpdateViewController"];
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Update" bundle:[NSBundle bundleForClass:ForceUpdateViewController.class]];
+    ForceUpdateViewController *vc = [sb instantiateViewControllerWithIdentifier:@"ForceUpdateViewController"];
     vc.dataDict = [data object];
     vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     //    UIViewController *initVC = [self getInitialViewControl];
@@ -81,16 +82,19 @@ UIViewController *initialVC;
     UIViewController *rootViewController = window.rootViewController;
     //Use the getMainStoryboardName
     //    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    [[rootViewController navigationController] presentViewController:vc animated:YES completion:nil];
     
-    //    [[rootViewController navigationController] pushViewController:vc animated:YES];
+    
+//    [[rootViewController navigationController] presentViewController:vc animated:YES completion:nil];
+     [[rootViewController presentedViewController] presentViewController:vc animated:YES completion:nil];
+//        [[rootViewController navigationController] pushViewController:vc animated:YES];
 }
 
--(void)showNormalUpdateViewController:(NSNotification*) data
++(void)showNormalUpdateViewController:(NSNotification*) data
 {
     NSLog(@"This is showNormalUpdateVC");
     NSLog(@"the result is %@",[data object]);
-    NormalUpdateViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"NormalUpdateViewController"];
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Update" bundle:[NSBundle bundleForClass:NormalUpdateViewController.class]];
+    NormalUpdateViewController *vc = [sb instantiateViewControllerWithIdentifier:@"NormalUpdateViewController"];
     vc.dataDict = [data object];
     //    UIViewController *initVC = [self getInitialViewControl];
     //    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:vc animated:YES completion:nil];
@@ -203,7 +207,7 @@ UIViewController *initialVC;
 }
 
 
--(void)showApplicationInformationMessage
++(void)showApplicationInformationMessage
 {
     
     if(applicationUpdateData)

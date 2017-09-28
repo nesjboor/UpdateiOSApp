@@ -32,11 +32,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)updateAppButton:(id)sender {
+
+- (IBAction)updateAppButton:(UIButton *)sender {
     NSLog(@"%@",[self.dataDict objectForKey:@"update_file_path"]);
     //    //invoke the phone to open this URL that will download the ipa on the device
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[self.dataDict objectForKey:@"update_file_path"]]  options:@{} completionHandler:nil];
 }
 
+
+
+//NSLog(@"%@",[self.dataDict objectForKey:@"update_file_path"]);
+////    //invoke the phone to open this URL that will download the ipa on the device
+//[[UIApplication sharedApplication] openURL:[NSURL URLWithString:[self.dataDict objectForKey:@"update_file_path"]]  options:@{} completionHandler:nil];
 @end
 

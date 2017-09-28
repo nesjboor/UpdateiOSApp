@@ -24,10 +24,10 @@
     //set Meta Data URL = json url
 //    update = [[UpdateApp alloc] init];
     //Force
-    [UpdateApplication setMetaDataURL:@"https://dl.dropbox.com/s/gl3rslnv6jqwb68/ForceUpdate.json"];
+//    [UpdateApplication setMetaDataURL:@"https://dl.dropbox.com/s/gl3rslnv6jqwb68/ForceUpdate.json"];
     //    [update setMetaDataURL:@"https://appstore.aljazeera.net/downloads/anonymous/metadata_ios_gatepass.json"];
     //Normal
-    //    [update setMetaDataURL:@"https://dl.dropbox.com/s/30jrltfrr9awab2/AlertUpdate.json"];
+        [UpdateApplication setMetaDataURL:@"https://dl.dropbox.com/s/30jrltfrr9awab2/AlertUpdate.json"];
     [UpdateApplication setInitialViewControl:[[AJViewController alloc] init]];
     //set storyboard ID
     [UpdateApplication setInitialStoryBoardId:@"AJViewController"];

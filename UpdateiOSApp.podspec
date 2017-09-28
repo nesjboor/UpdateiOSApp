@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UpdateiOSApp'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UpdateiOSApp.'
+  s.summary          = 'UpdateiOSApp for updateing the apps that are not in appstore.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'UpdateiOSApp for updateing the apps that are not in appstore for our apps .'
+
 
   s.homepage         = 'https://github.com/nesjboor/UpdateiOSApp'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,8 +31,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'UpdateiOSApp/Classes/**/*'
 
-# s.resource_bundles { 'UpdateiOSApp' => ['UpdateiOSApp/Assets/*.{png,jpeg,jpg}']}
-s.resource_bundles { 'UpdateiOSApp' => ['UpdateiOSApp/Assets/*'] }
+# s.resource_bundles = { 'UpdateiOSApp' => ['UpdateiOSApp/Assets/*.{png,jpeg,jpg}']}
+s.resource_bundles = { 'UpdateiOSApp' => ['UpdateiOSApp/Assets/*'] }
 s.resource = 'UpdateiOSApp/Assets/*.{storyboard,png}'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0DDEC8CDDD55C90EC0BF10B0 /* Pods_UpdateiOSApp_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A42A43C16D2604BE17DA82 /* Pods_UpdateiOSApp_Example.framework */; };
-		570BB6C51F7A37E3000C2C98 /* UpdateiOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570BB6C61F7A37E3000C2C98 /* UpdateiOSApp.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,7 +40,6 @@
 		15B7DDF2DB1C07EAD293AD18 /* Pods-UpdateiOSApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpdateiOSApp_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UpdateiOSApp_Example/Pods-UpdateiOSApp_Example.release.xcconfig"; sourceTree = "<group>"; };
 		19A42A43C16D2604BE17DA82 /* Pods_UpdateiOSApp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpdateiOSApp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F613A3E46535BABADB90CD3 /* Pods_UpdateiOSApp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpdateiOSApp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		570BB6C61F7A37E3000C2C98 /* UpdateiOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UpdateiOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* UpdateiOSApp_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpdateiOSApp_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570BB6C51F7A37E3000C2C98 /* UpdateiOSApp.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -122,7 +119,6 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				570BB6C61F7A37E3000C2C98 /* UpdateiOSApp.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,

@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-
+@import UpdateiOSApp;
 @interface AJViewController : UIViewController
 
 @end

@@ -20,11 +20,15 @@
 +(NSString*)getInitialStoryBoardId;
 
 
--(void)showForceUpdateViewController:(NSNotification*) data;
--(void)showNormalUpdateViewController:(NSNotification*) data;
++(void)showForceUpdateViewController:(NSNotification*) data;
++(void)showNormalUpdateViewController:(NSNotification*) data;
++(void)showApplicationInformationMessage;
+
++(void)checkForUpdates;
 +(void)askUserToUpdateApplication;
 +(void)forceUserToUpdateApplication;
-+(void)checkForUpdates;
+
+
 +(NSNumber*)getCurrentApplicationVersion;
 +(NSNumber*)getJSONApplicationVersion: (NSString*) versionString;
 @end

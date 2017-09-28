@@ -29,7 +29,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9s-ZC-ete">
                                 <rect key="frame" x="51" y="577" width="273" height="45"/>
-                                <color key="backgroundColor" red="0.77775919437408447" green="0.50243645906448364" blue="0.092521823942661285" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.12941176470588234" green="0.1803921568627451" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="1Zw-9w-yhs"/>
                                 </constraints>
@@ -38,8 +38,7 @@
                                     <color key="titleColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="bttnActionUpdate:" destination="cAE-1x-JzM" eventType="touchUpInside" id="BmN-KF-awK"/>
-                                    <action selector="updateAppButton:" destination="cAE-1x-JzM" eventType="touchUpInside" id="aU2-SF-XEK"/>
+                                    <action selector="updateAppButton:" destination="cAE-1x-JzM" eventType="touchUpInside" id="l48-zH-dvf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mandatory Update" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDI-cs-kCs">
@@ -106,7 +105,7 @@
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRq-Xq-OSk">
                                         <rect key="frame" x="51" y="577" width="273" height="45"/>
-                                        <color key="backgroundColor" red="0.77775919439999996" green="0.50243645910000001" blue="0.092521823939999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.12941176470588234" green="0.1803921568627451" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="2Gn-c5-qVf"/>
                                         </constraints>
@@ -115,9 +114,7 @@
                                             <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="bttnActionUpdate:" destination="cAE-1x-JzM" eventType="touchUpInside" id="920-nG-OLY"/>
-                                            <action selector="lateUpdateAppButton:" destination="eC0-oH-aCC" eventType="touchUpInside" id="VlJ-vY-ZY2"/>
-                                            <action selector="laterUpdateAppButton:" destination="eC0-oH-aCC" eventType="touchUpInside" id="V4p-kY-XA5"/>
+                                            <action selector="laterUpdateAppButton:" destination="eC0-oH-aCC" eventType="touchUpInside" id="wD9-oO-oQS"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Update" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXF-6V-Cec">
@@ -138,7 +135,7 @@
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ar-JN-Fzo">
                                         <rect key="frame" x="51" y="517" width="273" height="45"/>
-                                        <color key="backgroundColor" red="0.77775919439999996" green="0.50243645910000001" blue="0.092521823939999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.12941176470588234" green="0.1803921568627451" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="A7b-6N-vuY"/>
                                         </constraints>
@@ -148,7 +145,7 @@
                                         </state>
                                         <connections>
                                             <action selector="bttnActionUpdate:" destination="cAE-1x-JzM" eventType="touchUpInside" id="YTc-p8-K3E"/>
-                                            <action selector="updateAppButton:" destination="eC0-oH-aCC" eventType="touchUpInside" id="rPv-JX-Qe0"/>
+                                            <action selector="updateAppButton:" destination="eC0-oH-aCC" eventType="touchUpInside" id="K85-wb-pcr"/>
                                         </connections>
                                     </button>
                                 </subviews>

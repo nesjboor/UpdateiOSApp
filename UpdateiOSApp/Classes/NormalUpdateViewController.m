@@ -29,23 +29,23 @@
     
     
 }
-- (IBAction)updateAppButton:(id)sender {
+//- (IBAction)updateAppButton:(id)sender {
+//    NSLog(@"%@",[self.dataDict objectForKey:@"update_file_path"]);
+//    //    //invoke the phone to open this URL that will download the ipa on the device
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[self.dataDict objectForKey:@"update_file_path"]]  options:@{} completionHandler:nil];
+//}
+- (IBAction)updateAppButton:(UIButton *)sender {
     NSLog(@"%@",[self.dataDict objectForKey:@"update_file_path"]);
-    //    //invoke the phone to open this URL that will download the ipa on the device
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[self.dataDict objectForKey:@"update_file_path"]]  options:@{} completionHandler:nil];
+        //    //invoke the phone to open this URL that will download the ipa on the device
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[self.dataDict objectForKey:@"update_file_path"]]  options:@{} completionHandler:nil];
 }
 
-- (IBAction)laterUpdateAppButton:(id)sender {
-    //    UpdateApp *update = [[UpdateApp alloc] init];
-    
-    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:[UpdateApplication getInitialStoryBoardName] bundle:nil];
-    
-    UIViewController* viewControllerName = [storyboard instantiateViewControllerWithIdentifier:[UpdateApplication getInitialStoryBoardId]];
-    
-    [self.navigationController pushViewController:viewControllerName animated:YES];
-    //
-}
 
+- (IBAction)laterUpdateAppButton:(UIButton *)sender {
+
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

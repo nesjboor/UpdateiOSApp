@@ -1,8 +1,8 @@
 {
   "name": "UpdateiOSApp",
   "version": "0.1.0",
-  "summary": "A short description of UpdateiOSApp.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "UpdateiOSApp for updateing the apps that are not in appstore.",
+  "description": "UpdateiOSApp for updateing the apps that are not in appstore for our apps .",
   "homepage": "https://github.com/nesjboor/UpdateiOSApp",
   "license": {
     "type": "MIT",
@@ -21,8 +21,9 @@
   "source_files": "UpdateiOSApp/Classes/**/*",
   "resource_bundles": {
     "UpdateiOSApp": [
-      "UpdateiOSApp/Assets/*.{png,jpeg,jpg,xib,storyboard}"
+      "UpdateiOSApp/Assets/*"
     ]
   },
+  "resources": "UpdateiOSApp/Assets/*.{storyboard,png}",
   "frameworks": "UIKit"
 }

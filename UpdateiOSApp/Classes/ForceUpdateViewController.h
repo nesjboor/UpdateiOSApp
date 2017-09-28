@@ -13,4 +13,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblString;
 @property (weak, nonatomic) IBOutlet UILabel *forceUpdateLabel;
 
+
 @end
